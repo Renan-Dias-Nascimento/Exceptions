@@ -1,11 +1,11 @@
-package exStream;
+package ex01;
 
-public class ExemploStream {
+public class Sample {
     String titulo;
     boolean estaReservado;
     double valorTotal;
 
-    public ExemploStream(String nome, boolean estaEspecificado, double capacidade){
+    public Sample(String nome, boolean estaEspecificado, double capacidade){
         this.titulo = nome;
         this.estaReservado = estaEspecificado;
         this.valorTotal = capacidade;
